@@ -1,0 +1,21 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.page-container {
+  padding: 24px;
+}
+
+/* MUI Data Grid customizations */
+.MuiDataGrid-root {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
